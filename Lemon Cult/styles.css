@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f8c44c;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e0a732;
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #f8c44c, #f9e8a6);
+}
+
+.home-content h1 {
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#about, #contact {
+    padding: 50px 20px;
+    background-color: #fff3e0;
+}
+
+.about-content, .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2, .contact-content h2 {
+    font-size: 2.5em;
+    color: #f8c44c;
+    margin-bottom: 20px;
+}
+
+.about-content p, .contact-content p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact-content a {
+    color: #f8c44c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-content a:hover {
+    text-decoration: underline;
+}
